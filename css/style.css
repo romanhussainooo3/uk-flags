@@ -1,0 +1,120 @@
+ 
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+.flag-cont{
+    overflow: hidden;
+    border: 1px;
+}
+.blue-box{
+    width: 500px;
+    height: 250px;
+    background-color: hwb(256 2% 65%);
+    
+}
+.line1{
+    position: relative;
+    bottom: -100px;
+    left: -50px;
+    height: 50px;
+    width: 600px;
+    background-color: white;
+    transform: rotate(26deg);
+}
+.line2{
+    position: relative;
+    width: 600px;
+    height: 50px;
+    background-color: white;
+    bottom: -50px;
+    left: -50px;
+    transform: rotate(-27deg);
+}
+.line3{
+    position: relative;
+    width: 300px;
+    height: 25px;
+    background-color: rgb(151, 15, 15);
+    bottom: 40px;
+    transform: rotate(26deg);
+    margin-left: -22px;
+}
+.line4{
+    position: relative;
+    width: 300px;
+    height: 25px;
+    background-color: rgb(152, 12, 12);
+    transform: rotate(-27deg);
+    margin-top: 52px;
+    right: 13px;
+}
+.line5{
+    position: relative;
+    width: 400px;
+    height: 25px;
+    background-color: rgb(151, 15, 15);
+    bottom: ;
+    transform: rotate(26deg);
+    right: -245px;
+}
+.line6{
+    position: relative;
+    width: 300px;
+    height: 25px;
+    background-color: rgb(151, 12, 12);
+    bottom: 179px;
+    transform: rotate(-27deg);
+    left: 215px;
+}
+.line7{
+    position: relative;
+    bottom: 65%;
+    left: 0px;
+    height: 70px;
+    width: 600px;
+    background-color: white;
+}
+.line8{
+    position: relative;
+    width: 600px;
+    height:70px;
+    background-color: white;
+    transform: rotate(90deg);
+    bottom: 100%;
+    left: -50px;
+}
+.line9{
+    position: relative;
+    width: 600px;
+    height: 40px;
+    background-color: rgb(151, 11, 11);
+    left: 0px;
+    bottom: 115%;
+}
+.line10{
+    position: relative;
+    width: 600px;
+    height: 40px;
+    background-color: rgb(151, 12, 12);
+    bottom: 310px;
+    transform: rotate(90deg);
+    right: 50px;
+}
+.login{
+    position: absolute;
+    width: 400px;
+    height: 90px;
+    background-color: rgb(34, 9, 194);
+    margin-top: 400px;
+    margin-right: 00px;
+}
+.login h1{
+    font-size: 30px;
+    margin-left: 100px;
+    
+}
+
